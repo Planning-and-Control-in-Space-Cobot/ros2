@@ -1,0 +1,36 @@
+bridge_parameters:
+    ros_topic_name: "/camera_info"
+    gz_topic_name: "/camera_info"
+    ros_type_name: "sensor_msgs/msg/CameraInfo"
+    gz_type_name: "gz.msgs.CameraInfo"
+    subscriber_queue: 10
+    publisher_queue: 10
+    lazy: false
+    direction: "GZ_TO_ROS"
+
+    ros_topic_name: "/depth_camera"
+    gz_topic_name: "/depth_camera"
+    ros_type_name: "sensor_msgs/msg/Image"
+    gz_type_name: "gz.msgs.Image"
+    subscriber_queue: 10
+    publisher_queue: 10
+    lazy: false
+    direction: "GZ_TO_ROS"
+
+    ros_topic_name: "/depth_camera/points"
+    gz_topic_name: "/depth_camera/points"
+    ros_type_name: "sensor_msgs/msg/PointCloud2"
+    gz_type_name: "gz.msgs.PointCloudPacked"
+    subscriber_queue: 10
+    publisher_queue: 10
+    lazy: false
+    direction: "GZ_TO_ROS"
+
+    ros_topic_name: "/space_cobot0/motor/actuator_cmd"
+    gz_topic_name: "/space_cobot0/motor/actuator_cmd"
+    ros_type_name: "actuator_msgs/msg/Actuators"
+    gz_type_name: "gz.msgs.Actuators"
+    subscriber_queue: 10
+    publisher_queue: 10
+    lazy: false
+    direction: "ROS_TO_GZ"
