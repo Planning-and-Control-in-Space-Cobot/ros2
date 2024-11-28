@@ -1,0 +1,20 @@
+running develop
+running egg_info
+creating gz_bridge.egg-info
+writing gz_bridge.egg-info/PKG-INFO
+writing dependency_links to gz_bridge.egg-info/dependency_links.txt
+writing entry points to gz_bridge.egg-info/entry_points.txt
+writing requirements to gz_bridge.egg-info/requires.txt
+writing top-level names to gz_bridge.egg-info/top_level.txt
+writing manifest file 'gz_bridge.egg-info/SOURCES.txt'
+reading manifest file 'gz_bridge.egg-info/SOURCES.txt'
+writing manifest file 'gz_bridge.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/px4space/ISR/Thesis/Code/ros2_ws_px4/install/gz_bridge/lib/python3.10/site-packages/gz-bridge.egg-link (link to .)
+
+Installed /home/px4space/ISR/Thesis/Code/ros2_ws_px4/build/gz_bridge
+running symlink_data
+symbolically linking /home/px4space/ISR/Thesis/Code/ros2_ws_px4/build/gz_bridge/package.xml -> /home/px4space/ISR/Thesis/Code/ros2_ws_px4/install/gz_bridge/share/gz_bridge
+creating /home/px4space/ISR/Thesis/Code/ros2_ws_px4/install/gz_bridge/share/gz_bridge/launch
+symbolically linking /home/px4space/ISR/Thesis/Code/ros2_ws_px4/build/gz_bridge/launch/gz_bridge.launch.py -> /home/px4space/ISR/Thesis/Code/ros2_ws_px4/install/gz_bridge/share/gz_bridge/launch
+symbolically linking /home/px4space/ISR/Thesis/Code/ros2_ws_px4/build/gz_bridge/launch/bridge_params.yaml -> /home/px4space/ISR/Thesis/Code/ros2_ws_px4/install/gz_bridge/share/gz_bridge/launch
