@@ -8,7 +8,7 @@ def generate_launch_description():
         package="ros_gz_bridge",
         executable="parameter_bridge",
         arguments=[
-            "/space_cobot0/motor/actuator_cmd@actuator_msgs/msg/Actuators@gz.msgs.Actuators",
+            "/space_cobot_0/motor_command@actuator_msgs/msg/Actuators@gz.msgs.Actuators",
         ],
         output="screen",
     )
